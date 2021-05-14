@@ -1,0 +1,45 @@
+body {
+    background-color: cornsilk;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+} 
+
+#wrapper {
+    background-color: white;
+    margin: 5% 0 0 10%;
+    padding: 5% 0;
+    width: 850px;
+}
+
+#content {
+    margin: 0 10%;
+    background-color: white;
+    box-shadow: 5px 10px 20px gray;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+textarea {
+    border: dashed 2px gray;
+    width: 60%;
+    text-align: center;
+    color: ivory;
+}
+
+#btn {
+    background-color: rgb(216, 79, 0);
+}
+
+#password{
+    background-color: white;
+    margin left: 20%;
+}
