@@ -4,8 +4,6 @@ var upperChar = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specialChar = ["!", "%", "&", ",", "*", "+", "-", ".", "/", "<", ">", "?","~"];
 
-document.querySelector("#passGen").addEventListener("click", writePass);
-
 function generatePassword () {
     var chooseLength = (prompt("Choose your password length. (How many characters?)"));
 
@@ -61,3 +59,5 @@ function writePass() {
 
     passText.value = password;
 }
+
+document.querySelector("#passGen").addEventListener("click", writePass);
