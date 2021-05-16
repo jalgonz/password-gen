@@ -61,15 +61,3 @@ function writePass() {
 }
 //Click to start password generation
 document.querySelector("#passGen").addEventListener("click", writePass);
-
-
-var copy = document.querySelector("#copy");
-copy.addEventListener("click", function () {
-    copyPass();
-});
-
-function copyPass() {
-    document.getElementById("password").querySelector();
-    document.execCommand("copy");
-    alert("Password copied to clipboard");
-}
